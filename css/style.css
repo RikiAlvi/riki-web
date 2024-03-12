@@ -108,19 +108,40 @@ p {
     font-weight: 700;
 }
 
-.btn {
-    background-color: transparent;
+.btn_result {
+    background-color: rgb(46, 46, 219);
     padding: 12px 24px;
     border-right: 2px solid black;
     border-bottom: 2px solid black;
     border-left: 2px solid gray;
     border-top: 2px solid gray;
     border-radius: 5px;
+    color: white;
 
     cursor: pointer;
 }
 
-.btn:active  {
+.btn_reset {
+    background-color: rgb(206, 44, 44);
+    padding: 12px 24px;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid gray;
+    border-top: 2px solid gray;
+    border-radius: 5px;
+    color: white;
+
+    cursor: pointer;
+}
+
+.btn_result:active  {
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid gray;
+    border-bottom: 2px solid gray;
+}
+
+.btn_reset:active  {
     border-top: 2px solid black;
     border-left: 2px solid black;
     border-right: 2px solid gray;
